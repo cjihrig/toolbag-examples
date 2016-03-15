@@ -1,0 +1,40 @@
+{
+  "name": "toolbag-examples",
+  "version": "1.0.0",
+  "description": "Collection of toolbag examples",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "",
+  "homepage": "https://github.com/continuationlabs/toolbag-examples",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuationlabs/toolbag-examples"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/toolbag-examples/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "borland": "0.1.0",
+    "hapi": "13.2.1",
+    "inert": "3.2.0",
+    "nes": "4.0.0",
+    "toolbag": "1.x.x",
+    "toolbag-plugins": "0.3.0"
+  },
+  "devDependencies": {
+    "belly-button": "2.x.x"
+  },
+  "keywords": [
+    "toolbag",
+    "examples",
+    "demo",
+    "tooling",
+    "borland"
+  ]
+}
