@@ -25,6 +25,7 @@
     "inert": "3.2.0",
     "nes": "4.0.0",
     "toolbag": "2.x.x",
+    "toolbag-plugin-stats-collector": "1.x.x",
     "toolbag-plugin-udp-reporter": "1.x.x",
     "toolbag-plugins": "0.3.0"
   },

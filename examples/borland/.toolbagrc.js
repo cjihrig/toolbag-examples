@@ -1,6 +1,7 @@
 'use strict';
 
 const ToolbagPlugins = require('toolbag-plugins');
+const StatsCollector = require('toolbag-plugin-stats-collector');
 
 module.exports = function config (defaults, callback) {
   callback(null, {
@@ -22,7 +23,7 @@ module.exports = function config (defaults, callback) {
       },
       { plugin: ToolbagPlugins.Signal },
       {
-        plugin: ToolbagPlugins.StatsCollector,
+        plugin: StatsCollector,
         options: {
           enabled: true,
           period: 1000,

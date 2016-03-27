@@ -1,6 +1,6 @@
 'use strict';
 
-const ToolbagPlugins = require('toolbag-plugins');
+const StatsCollector = require('toolbag-plugin-stats-collector');
 const UdpReporter = require('toolbag-plugin-udp-reporter');
 
 module.exports = function config (defaults, callback) {
@@ -16,7 +16,7 @@ module.exports = function config (defaults, callback) {
         }
       },
       {
-        plugin: ToolbagPlugins.StatsCollector,
+        plugin: StatsCollector,
         options: {
           enabled: true,
           period: 1000,
