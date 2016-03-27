@@ -1,12 +1,13 @@
 'use strict';
 
 const ToolbagPlugins = require('toolbag-plugins');
+const UdpReporter = require('toolbag-plugin-udp-reporter');
 
 module.exports = function config (defaults, callback) {
   callback(null, {
     plugins: [
       {
-        plugin: ToolbagPlugins.UdpReporter,
+        plugin: UdpReporter,
         options: {
           id: 'udp reporter',
           socketType: 'udp4',

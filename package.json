@@ -1,6 +1,6 @@
 {
   "name": "toolbag-examples",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of toolbag examples",
   "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
   "main": "",
@@ -21,10 +21,11 @@
   },
   "dependencies": {
     "borland": "0.1.0",
-    "hapi": "13.2.1",
+    "hapi": "13.2.2",
     "inert": "3.2.0",
     "nes": "4.0.0",
-    "toolbag": "1.x.x",
+    "toolbag": "2.x.x",
+    "toolbag-plugin-udp-reporter": "1.x.x",
     "toolbag-plugins": "0.3.0"
   },
   "devDependencies": {
