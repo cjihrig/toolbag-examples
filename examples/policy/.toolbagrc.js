@@ -1,12 +1,12 @@
 'use strict';
 
-const ToolbagPlugins = require('toolbag-plugins');
+const Policy = require('toolbag-plugin-policy');
 
 module.exports = function config (defaults, callback) {
   callback(null, {
     plugins: [
       {
-        plugin: ToolbagPlugins.Policy,
+        plugin: Policy,
         options: {
           blacklist: {
             modules: {
