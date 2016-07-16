@@ -25,6 +25,7 @@
     "inert": "4.0.1",
     "nes": "6.2.1",
     "toolbag": "2.x.x",
+    "toolbag-plugin-nsp-check": "1.x.x",
     "toolbag-plugin-policy": "1.x.x",
     "toolbag-plugin-stats-collector": "1.x.x",
     "toolbag-plugin-udp-reporter": "1.x.x",
